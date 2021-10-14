@@ -1,0 +1,325 @@
+% Tamaño de papel y fuente
+\documentclass[a4paper, 10pt]{article}
+
+% Márgenes
+\usepackage[margin=1.8cm]{geometry}
+
+% Idioma
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+% Interlineado
+\usepackage{setspace}
+\setstretch{1.25}
+
+% Palatino font
+\renewcommand*\rmdefault{ppl}
+
+\usepackage{color}
+
+
+\usepackage{array, xcolor, lipsum, bibentry, enumitem}
+\usepackage{color}
+	\definecolor{dark_blue}{rgb}{0.2, 0.0, .7}
+\usepackage[colorlinks = TRUE,
+			allcolors = dark_blue]{hyperref}
+
+% Tablas y gráficos
+\usepackage[]{caption}
+\usepackage{booktabs, graphicx}
+\usepackage{pifont}
+% \usepackage{fontawesome}
+
+\usepackage[]{titlesec}
+\titleformat*{\section}{\large\bfseries\flushleft}
+\titleformat*{\subsection}{\normalsize\bfseries\flushleft}
+
+\begin{document}
+\thispagestyle{empty}
+% \renewcommand{\thepage}{\small \arabic{page}/2}
+% \renewcommand{\thepage}{\footnotesize\it Updated: \today}
+
+\setstretch{1.05}
+
+\vspace{8pt}
+
+
+% ------------------------------------------------------------------
+% SPLIT HEADER
+
+% \begin{minipage}[ht]{0.66\textwidth}
+% \begin{flushright}
+% {\bfseries\LARGE Francisco Villamil}\\\vspace{5pt}
+% \setstretch{1.1}
+% +41 44 632 65 91 \hspace{5pt} \ding{37}\\
+% \href{mailto:francisco.villamil@icr.gess.ethz.ch}{francisco.villamil@icr.gess.ethz.ch} \hspace{5pt} \ding{41}\\
+% \href{http://franvillamil.github.io}{http://franvillamil.github.io} \hspace{5pt} \ding{45}\\ \vspace{2pt}
+% % OrcID: 0000-0003-0523-5426 \\
+%
+% \end{flushright}
+% \end{minipage}
+% \hfill
+% {\color{gray}\vline}
+% \hfill
+% \begin{minipage}[ht]{0.26\textwidth}
+% ETH Zürich\\
+% IFW D 45.2\\
+% Haldeneggsteig 4\\
+% 8092 Zürich
+% \end{minipage}
+
+% \vspace{40pt}
+% ------------------------------------------------------------------
+
+% ------------------------------------------------------------------
+% BASIC HEADER
+
+\begin{center}
+{\bfseries\LARGE Francisco Villamil}\\\vspace{5pt}
+\today
+\end{center}
+
+\vspace{8pt}
+
+% ------------------------------------------------------------------
+
+
+
+\setstretch{1.2}
+
+% ---------------------------------------------------------
+% CONTACT
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+	\flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Contact}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+	\begin{minipage}[t]{0.5\textwidth}
+		ETH Zurich\\
+		IFW D 45.2, Haldeneggsteig 4\\
+		8092 Zurich\\
+	\end{minipage}
+	\begin{minipage}[t]{0.45\textwidth}
+		\ding{37} \hspace{5pt} +41 44 632 65 91\\
+		\ding{41} \hspace{5pt} \href{mailto:francisco.villamil@icr.gess.ethz.ch}{francisco.villamil@icr.gess.ethz.ch}\\
+		\ding{45} \hspace{5pt} \href{http://franvillamil.github.io}{http://franvillamil.github.io}\\
+	\end{minipage}
+\end{minipage}
+
+\vspace{8pt}
+
+
+% ---------------------------------------------------------
+% EDUCATION
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+	\flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Summary}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  \setstretch{1}
+  % {\small
+  I have experience in blah blah es un tema con el que trabajo día a día, tengo experiencia directa en la construcción de este tipo de indicadores, y estoy muy familiarizado con las ventajas y debilidades de las fuentes de datos públicas, por lo que sería una oportunidad clave para poder transmitir este conocimiento blah blha blha y desarrollar una estrategia educativa lo más efectiva posible.
+  I can do this and that blah blah creo que esta experiencia práctica se traduciría en una mejor enseñanza y, sobre todo, en la posibilidad de ayudar de forma personalizada.
+\end{minipage}
+
+\vspace{12pt}
+
+% ---------------------------------------------------------
+% EDUCATION
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+	\flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Education}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+	PhD Political Science, {\it ETH Zurich}\hfill\textbf{2016--2020}\\
+  MA Comparative and International Studies, {\it ETH Zurich}\hfill\textbf{2014--2016}\\
+  BA Sociology, {\it Universidad de Salamanca}\hfill\textbf{2010--2014}\\
+  % Associate Degree in Photography, {\it Escuela de Arte de Oviedo}\hfill\textbf{2008--2010}\\
+\end{minipage}
+
+\vspace{3pt}
+
+% ---------------------------------------------------------
+% RESEARCH POSITIONS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Research positions}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  Short-Term Visiting Researcher, {\it Georgetown University}, Washington DC\hfill{\bf 2018--2019}\\
+  Research assistant, International Conflict Research, {\it ETH Zurich}\hfill{\bf 2014--2016}\\
+  Research intern, Department of Sociology, {\it Universidad de Salamanca}, Spain\hfill{\bf 2012--2013}
+\end{minipage}
+
+\vspace{8pt}
+
+% ---------------------------------------------------------
+% DATA COLLECTION
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Data work}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  Coder coordinator, ACD2EPR Version 2018 (\href{https://icr.ethz.ch/data/epr/acd2epr/ACD2EPR-2018_Codebook.pdf}{codebook,} \href{https://icr.ethz.ch/data/epr/acd2epr/}{website}).\\
+  Coder coordinator and coder, EOSV dataset (\href{https://snis.ch/project/civilian-victimization-conflict-escalation/}{website}), 2016--2017.\\
+  R package for historical municipality-level analyses in Spain (\href{https://github.com/franvillamil/muniSpain}{muniSpain}).
+\end{minipage}
+
+\vspace{8pt}
+
+% ---------------------------------------------------------
+% WORK IN PROGRESS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Work in progress}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  \begin{enumerate}[leftmargin=*, nolistsep]
+  \item ``Mobilizing memories: The social conditions of the long-term impact of victimization.'' Under review.
+  \item ``Civilian victimization and ethnic civil war'' (with Lars-Erik Cederman, Simon Hug, and Livia Schubiger). Under review.
+	\item ``State repression beyond violence: Teachers' purges in postwar Spain.'' (with Laia Balcells)
+  \item ``A struggle over memories: The legacies of civil war violence in Guatemala.''
+  \end{enumerate}
+\end{minipage}
+
+\vspace{8pt}
+
+% ---------------------------------------------------------
+% CONFERENCES
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Public\\Talking}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  APSA Annual Meeting, Boston (USA).\hfill{\bf 2018}\\
+  Jan Tinbergen European Peace Science Conference, Verona (Italy).\hfill{\bf 2018}\\
+  APSA Annual Meeting, San Francisco (USA).\hfill{\bf 2017}\\
+  EPSA Annual Conference, Milan (Italy).\hfill{\bf 2017}
+\end{minipage}
+
+\vspace{8pt}
+
+% ---------------------------------------------------------
+% AWARDS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Awards \& Grants}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  Swiss Academy of Humanities and Social Sciences (SAGW) travel grant\hfill{\bf 2018}\\
+  Best academic record in undergraduate studies, {\it Universidad de Salamanca}\hfill{\bf 2014}\\
+  Research assistant fellowship, {\it Spanish Ministry of Education}\hfill{\bf 2013--2014}
+\end{minipage}
+
+\vspace{8pt}
+
+
+% ---------------------------------------------------------
+% CODING
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Technical Skills}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  Programming: Python (beginner)\\
+  Statistics: R (advanced), Stata (beginner), SPSS\\
+  Typesetting: \LaTeX, Markdown, {\tt knitr}\\
+  % Other: QGIS/ArcGIS, OCRopus
+\end{minipage}
+
+\vspace{8pt}
+
+% ---------------------------------------------------------
+% LANGUAGES
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.13\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\footnotesize Languages}
+\end{minipage}
+\begin{minipage}[t]{0.87\textwidth}
+  Spanish (native),
+  English (fluent),
+  Portuguese (intermediate),
+  German (basic)
+\end{minipage}
+
+\vspace{5pt}
+
+% ---------------------------------------------------------
+% FIELD
+% ---------------------------------------------------------
+
+% \noindent
+% \begin{minipage}[t]{0.13\textwidth}
+%   \flushleft
+% 	\setstretch{0.8}
+%   \textsc{\small Field Work}
+% \end{minipage}
+% \begin{minipage}[t]{0.87\textwidth}
+%   Guatemala: archival data collection (April 2018)\\
+%   Spain: archival data collection (October 2017)
+% \end{minipage}
+%
+% \vspace{8pt}
+
+% ---------------------------------------------------------
+% PROFFESION
+% ---------------------------------------------------------
+%
+% \noindent
+% \begin{minipage}[t]{0.13\textwidth}
+%   \flushleft
+% 	\setstretch{0.8}
+%   \textsc{\footnotesize Profession}
+% \end{minipage}
+% \begin{minipage}[t]{0.87\textwidth}
+%   Referee: Journal of Conflict Resolution
+% \end{minipage}
+%
+% \vspace{8pt}
+
+% % \vspace{8pt}
+% \noindent
+% % \flushright
+% \textit{\small Updated \today.}
+
+\end{document}

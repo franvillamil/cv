@@ -1,0 +1,385 @@
+% Tamaño de papel y fuente
+\documentclass[a4paper, 11pt]{article}
+
+% Márgenes
+\usepackage[left=2cm, right=2cm, top=1.5cm, bottom=2cm]{geometry}
+
+% Idioma
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+% Interlineado
+\usepackage{setspace}
+\setstretch{1.25}
+
+% Palatino font
+\renewcommand*\rmdefault{ppl}
+
+\usepackage{color}
+
+\usepackage{array, xcolor, lipsum, bibentry, enumitem}
+\usepackage{color}
+	\definecolor{dark_blue}{rgb}{0.2, 0.0, .7}
+\usepackage[colorlinks = TRUE,
+			allcolors = dark_blue]{hyperref}
+
+% Tablas y gráficos
+\usepackage[]{caption}
+\usepackage{booktabs, graphicx}
+\usepackage{pifont}
+% \usepackage{fontawesome}
+
+\usepackage[]{titlesec}
+\titleformat*{\section}{\large\bfseries\flushleft}
+\titleformat*{\subsection}{\normalsize\bfseries\flushleft}
+
+\begin{document}
+% \thispagestyle{empty}
+\renewcommand{\thepage}{\small \arabic{page}/2}
+% \renewcommand{\thepage}{\small\it Updated: \today}
+
+% ---------------------------------------------------------
+% BASIC HEADER + CONTACT INFO
+% ---------------------------------------------------------
+
+%%%% HEADER with PHOTO %%%%
+\begin{minipage}[ht]{0.65\textwidth}
+\begin{flushright}
+  {\bfseries\huge Francisco Villamil}\\\vspace{5pt}
+  \today % Curriculum Vitae\\\today
+\end{flushright}
+\end{minipage}
+% \hfill
+% {\color{gray}\vline}
+\hfill
+\begin{minipage}[ht]{0.25\textwidth}
+\includegraphics[width = 0.7\textwidth]{phpro_bn}
+\end{minipage}
+
+
+%%%% BASIC HEADER %%%%
+% \begin{center}
+% {\bfseries\LARGE Francisco Villamil}\\\vspace{5pt}
+% \today
+% \end{center}
+
+\vspace{25pt}
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+	\flushleft
+	\setstretch{0.8}
+  \textsc{\small Contact}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	\begin{minipage}[t]{0.55\textwidth}
+    IFW D 45.2, ETH Zurich\\
+		Haldeneggsteig 4\\
+		8092 Zurich\\
+	\end{minipage}
+	\begin{minipage}[t]{0.45\textwidth}
+		\ding{37} \hspace{5pt} +41 44 632 65 91\\
+		\ding{41} \hspace{5pt} \href{mailto:francisco.villamil@icr.gess.ethz.ch}{francisco.villamil@icr.gess.ethz.ch}\\
+		\ding{43} \hspace{5pt} \href{http://franvillamil.github.io}{http://franvillamil.github.io}\\
+	\end{minipage}
+\end{minipage}
+
+\vspace{10pt}
+
+
+% ---------------------------------------------------------
+% EDUCATION
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\textsc{\small Education}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	PhD Political Science, {\it ETH Zurich}\hfill\textbf{February 2020}\\
+  \-\hspace{5mm}Title: ``The long-term effects of wartime violence against civilians''\\
+  \-\hspace{5mm}Supervisor: Lars-Erik Cederman\\
+	\-\hspace{5mm}External examiners: Laia Balcells, Ignacio Sánchez-Cuenca\\
+  MA Comparative and International Studies, {\it ETH Zurich}\hfill\textbf{2016}\\
+  \-\hspace{5mm}Thesis: ``Protest, repression, and anti-government violence''\\
+  \-\hspace{5mm}Average grade: 5.58/6\\
+  BA Sociology, {\it University of Salamanca}, Spain\hfill\textbf{2014}\\
+  \-\hspace{5mm}Average grade: 9.31/10, Best GPA Award
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% RESEARCH POSITIONS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Research Positions}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+  Research Officer for Spain\hfill{\bf 2020--}\\
+  \-\hspace{5mm}Project ``Inequality and Governance in Unstable Democracies: The\\
+  \-\hspace{5mm}Mediating Role of Trust'', funded by ESRC (UK). PI: Patricia Justino, IDS.\\
+  Visiting Scholar, {\it Instituto Carlos III-Juan March}, Madrid\hfill{\bf 2019}\\
+  Short-Term Visiting Researcher, {\it Georgetown University}, Washington DC\hfill{\bf 2018--2019}\\
+  Research assistant, International Conflict Research, {\it ETH Zurich}\hfill{\bf 2014--2016}\\
+  Research intern, Department of Sociology, {\it University of Salamanca}, Spain\hfill{\bf 2012--2013}
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% DATA COLLECTION
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Data \&\\Software}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	\href{https://github.com/franvillamil/muniSpain}{muniSpain}: R package for historical municipality-level analyses in Spain.\\
+  Coder coordinator, ACD2EPR Version 2018 (\href{https://icr.ethz.ch/data/epr/acd2epr/ACD2EPR-2018_Codebook.pdf}{codebook,} \href{https://icr.ethz.ch/data/epr/acd2epr/}{website}).\\
+  Coder coordinator and coder, EOSV dataset (\href{https://snis.ch/project/civilian-victimization-conflict-escalation/}{website}), 2016--2017.
+\end{minipage}
+
+\vspace{20pt}
+
+% % ---------------------------------------------------------
+% % PUBLICATIONS
+% % ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Peer-Reviewed\\Publications}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	\vspace{-7pt}
+  \begin{enumerate}[leftmargin=*, nolistsep]
+  \item Villamil, Francisco. Mobilizing memories: The social conditions of the long-term impact of victimization. Accepted for publication at \textit{Journal of Peace Research}.
+  \end{enumerate}
+
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% MANUSCRIPTS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Working\\Papers}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	\vspace{-7pt}
+  % \parindent -1em
+  % \parskip 0pt
+  % \leftskip 1em
+  % \noindent
+  \begin{enumerate}[leftmargin=*, nolistsep]
+  \item ``Civilian victimization and ethnic civil war'' (with Lars-Erik Cederman, Simon Hug, and Livia Schubiger). Review and resubmit at \textit{Journal of Conflict Resolution}.
+	\item ``The double logic of internal purges: Evidence from Francoist Spain.'' (with Laia Balcells). Under review.
+	\item ``Wartime collective targeting and postwar ethnic mobilization.''
+	\item ``A struggle over memories: The legacies of civil war violence in Guatemala.''\\
+  \end{enumerate}
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% WORK IN PROGRESS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Current\\Projects}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	\vspace{-7pt}
+	``Blend or resist: Wartime violence and local political polarization.''\\
+	``Long-term determinants of far-right electoral support.''\\
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% CONFERENCES
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Conference\\Talks}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+	ISA Annual Conference, Honolulu, USA. (Accepted)\hfill{\bf 2020}\\
+	Jan Tinbergen European Peace Science Conference, The Hague, NL.\hfill{\bf 2019}\\
+	APSA Annual Meeting, Boston, USA.\hfill{\bf 2018}\\
+  Jan Tinbergen European Peace Science Conference, Verona, Italy.\hfill{\bf 2018}\\
+  APSA Annual Meeting, San Francisco, USA.\hfill{\bf 2017}\\
+  EPSA Annual Conference, Milan, Italy.\hfill{\bf 2017}
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% AWARDS
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Awards \& Grants}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+  Swiss Academy of Humanities and Social Sciences (SAGW) travel grant\hfill{\bf 2018}\\
+  Best academic record in undergraduate studies award, {\it University of Salamanca}\hfill{\bf 2014}\\
+  Research assistant fellowship, {\it Spanish Ministry of Education}\hfill{\bf 2013--2014}
+\end{minipage}
+
+\vspace{20pt}
+
+
+% ---------------------------------------------------------
+% CODING
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Technical Skills}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+  Programming: Python (beginner), SQL (beginner)\\
+  Statistics: R (advanced), Stata (beginner), SPSS\\
+  Typesetting: \LaTeX, Markdown, {\tt knitr}\\
+  Other: QGIS, OCRopus
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% LANGUAGES
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Languages}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+  Spanish, native language.\\
+  English, fluent.\\
+  Portuguese, intermediate.\\
+  German, basic.
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% FIELD
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Field\\Work}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+  Guatemala, archival data collection (2018)\\
+  Spain, archival data collection (2017)
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% PROFFESION
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small Profession}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+  {\it Referee:} Journal of Conflict Resolution, Political Geography.\\
+  % {\it Membership:} American Political Science Association, Network of European Peace Scientists
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+% REFERENCES
+% ---------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{0.14\textwidth}
+  \flushleft
+	\setstretch{0.8}
+  \textsc{\small References}
+\end{minipage}
+\begin{minipage}[t]{0.86\textwidth}
+
+	\begin{minipage}[t]{0.49\textwidth}
+	Lars-Erik Cederman\\
+	Professor\\
+	International Conflict Research\\
+	ETH Zürich
+
+	\vspace{5pt}
+
+	IFW D 49.2\\
+	Haldeneggsteig 4\\
+	8092 Zurich, Switzerland\\
+	+41 44 632 67 59\\
+	lcederman@ethz.ch
+	\end{minipage}
+	\begin{minipage}[t]{0.51\textwidth}
+	Laia Balcells\\
+	Provost's Distinguished Associate Professor\\
+	Department of Government\\
+	Georgetown University
+
+	\vspace{5pt}
+
+	Intercultural Center (ICC) 673\\
+	37th and O Streets, NW\\
+	20057 Washington DC, USA\\
+	+1 (202) 687 3712\\
+	laia.balcells@georgetown.edu
+	\end{minipage}
+
+	\vspace{20pt}
+
+	\textit{More references available upon request.}
+
+\end{minipage}
+
+\vspace{20pt}
+
+% ---------------------------------------------------------
+
+% \vspace{10pt}
+% \noindent
+% % \flushright
+% \textit{\small Updated \today.}
+
+\end{document}

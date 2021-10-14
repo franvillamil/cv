@@ -1,0 +1,351 @@
+% Tamaño de papel y fuente
+\documentclass[a4paper, 12pt]{article}
+
+% Márgenes
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+% Idioma
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% \usepackage[semibold]{ebgaramond}
+\renewcommand*\rmdefault{ppl}
+
+% Interlineado
+\usepackage{setspace}
+\setstretch{1.15}
+
+\usepackage{color}
+
+\usepackage{array, xcolor, lipsum, bibentry, enumitem, etaremune}
+\usepackage{color}
+	\definecolor{dark_blue}{rgb}{0.2, 0.0, .7}
+\usepackage[colorlinks = TRUE,
+			allcolors = dark_blue]{hyperref}
+
+% Tablas y gráficos
+\usepackage[]{caption}
+\usepackage{booktabs, graphicx}
+\usepackage{pifont}
+% \usepackage{fontawesome}
+
+\usepackage[]{titlesec}
+\titleformat*{\section}{\large\bfseries\flushleft}
+\titleformat*{\subsection}{\normalsize\bfseries\flushleft}
+
+\usepackage{lastpage}
+
+\makeatletter
+\renewcommand{\@evenfoot}%
+{\small \hfil {\thepage}/\pageref{LastPage} \hfil}
+\renewcommand{\@oddfoot}{\@evenfoot}
+\makeatother
+
+\begin{document}
+
+% ---------------------------------------------------------
+% BASIC HEADER + CONTACT INFO
+% ---------------------------------------------------------
+
+\begin{center}
+{\bfseries\LARGE Francisco Villamil}\\\vspace{5pt}
+% \today
+\end{center}
+
+\vspace{10pt}
+
+\noindent
+\begin{minipage}[t]{0.45\textwidth}
+\flushright
+	Office 18.2.E05\\
+	Universidad Carlos III de Madrid\\
+	Madrid, 135 -- 28903 Getafe\\
+\end{minipage}\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \ding{37} \hspace{5pt} (+34) 91 624 8510\\
+	\ding{41} \hspace{5pt} \href{mailto:francisco.villamil@uc3m.es}{francisco.villamil@uc3m.es}\\
+	\ding{43} \hspace{5pt} \href{http://franvillamil.github.io}{http://franvillamil.github.io}\\
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Employment}
+
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+  \setstretch{0.8}
+	\textbf{2020--}\\\vspace{21pt}
+  \textbf{2020--}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+	Junior Research Fellow\\
+  \textit{Carlos III-Juan March Institute, Universidad Carlos III de Madrid}\\
+  Visiting Professor\\
+  \textit{Department of Social Sciences, Universidad Carlos III de Madrid}
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Education}
+
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+	\textbf{2020}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  PhD Political Science, \textit{ETH Zurich}\\
+  {\small ``Mobilizing memories: The long-term consequences of wartime violence against civilians''}\vspace{-2pt}\\
+  {\small Committee: Lars-Erik Cederman (supervisor), Laia Balcells, Ignacio Sánchez-Cuenca}
+	\vspace{-5pt}
+	\begin{itemize}\small
+	  \item Juan Linz Price to the Best Doctoral Dissertation in Political Science (CEPC)
+	\end{itemize}
+\end{minipage}
+
+\vspace{10pt}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+	\textbf{2016}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  MA Comparative and International Studies, {\it ETH Zurich}\\
+  {\small Average grade: 5.58/6}\vspace{5pt}\\
+\end{minipage}
+
+\vspace{-10pt}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+	\textbf{2014}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  BA Sociology, {\it Universidad de Salamanca}\\
+  {\small Average grade: 9.31/10, \textit{Best GPA Award}}
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Research Positions}
+
+% \noindent
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+  \setstretch{0.8}
+	% \textbf{2020--}\\\vspace{23pt}
+  \textbf{2019}\\\vspace{7pt}
+	\textbf{2018--19}\\\vspace{7pt}
+	% \textbf{2014--16}\\\vspace{7pt}
+	\textbf{2013--14}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  % Research Officer for Spain, ESRC Project `Inequality and Governance in Unstable Democracies: The Mediating Role of Trust' (PI: Patricia Justino, IDS)\vspace{2pt}\\
+  Visiting Scholar, {\it Carlos III-Juan March Institute}, Madrid\vspace{2pt}\\
+	Short-Term Visiting Researcher, {\it Georgetown University}, Washington DC\vspace{2pt}\\
+	% Research assistant, International Conflict Research, {\it ETH Zurich}\vspace{2pt}\\
+	Research intern, Department of Sociology, {\it Universidad de Salamanca}, Spain
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Publications}
+
+\begin{etaremune}[leftmargin=12pt, itemsep=0pt]
+% \item \textbf{Villamil, Francisco} (2021) Violence, co-optation, and postwar voting in Guatemala. Conditionally accepted at \textit{Conflict Management and Peace Science}.
+\item \textbf{Villamil, Francisco} and Laia Balcells (forthcoming) Do TJ policies cause backlash? Evidence from street name changes in Spain. Conditionally accepted at \textit{Research \& Politics}.
+\item \textbf{Villamil, Francisco} (2021) Mobilizing memories: The social conditions of the long-term impact of victimization. \textit{Journal of Peace Research} 58(3): 399--416.
+\item Balcells, Laia and \textbf{Francisco Villamil} (2020) The double logic of internal purges: Evidence from Francoist Spain. \textit{Nationalism and Ethnic Politics} 26(3): 260--278.
+\item Cederman, Lars-Erik, Simon Hug, Livia Schubiger, and \textbf{Francisco Villamil} (2020) Civilian victimization and ethnic civil war. \textit{Journal of Conflict Resolution} 64(7--8): 1199--1225.
+\end{etaremune}
+
+%---------------------------------------------------------------
+\section*{Working papers}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+\item Violence, co-optation, and postwar voting in Guatemala. \textit{(R\&R at Conflict Management and Peace Science)}
+\item Measurement validity and historical data in conflict research.
+\item Rally 'round the barrack: Far right support and the military (with Stuart Turnbull-Dugarte and José Rama).
+\end{itemize}
+
+%---------------------------------------------------------------
+\section*{Research in progress}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+\item Wartime collective targeting and postwar ethnic mobilization.
+\item Religious violence during the Spanish Civil War (with Paloma Aguilar, Fernando de la Cuesta, and Ignacio Sánchez-Cuenca).
+\item Issues, media, and polarization in Spain (with Laia Balcells and Juan F. Tellez).
+\item Authoritarian repression and local collective action in Spain (with Laia Balcells).
+\end{itemize}
+
+%---------------------------------------------------------------
+\section*{Teaching \& Supervision}
+
+% \begin{minipage}[t]{0.1\textwidth}
+% \textbf{yyyy}
+% \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+% xxxx
+% \end{minipage}\vspace{-5pt}\\
+
+\subsection*{Undergraduate}
+
+\noindent
+War, peace, and political violence\hfill\textbf{Fall 2020, Fall 2021}\\
+{\small Undergraduate course, Universidad Carlos III de Madrid}\\
+{\small Evaluation: 4.21/5 (2020)}
+\vspace{10pt}
+
+\noindent
+Multidisciplinary seminar on International Studies\hfill\textbf{Fall 2020, Fall 2021}\\
+{\small Undergraduate course, Universidad Carlos III de Madrid}\\
+{\small Evaluation: 4.63/5 (2020); 4.24/5 (2020)}
+\vspace{10pt}
+
+\noindent
+Security, peace, and conflict resolution\hfill\textbf{Fall 2020}\\
+{\small Undergraduate course, Universidad Carlos III de Madrid}\\
+{\small Evaluation: 4.71/5 (2020)}
+
+\vspace{-10pt}
+\subsection*{Supervision}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+  \item MA theses: Javier Terraza Palanca, UC3M
+	\item 8 BA theses, UC3M
+\end{itemize}
+
+%---------------------------------------------------------------
+\section*{Data \& Software}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+  \item \href{https://github.com/franvillamil/muniSpain}{muniSpain}: R package for historical municipality-level analyses in Spain
+	\item Coder coordinator, ACD2EPR Version 2018 (\href{https://icr.ethz.ch/data/epr/acd2epr/ACD2EPR-2018_Codebook.pdf}{codebook,} \href{https://icr.ethz.ch/data/epr/acd2epr/}{website})
+	\item Coder coordinator and coder, EOSV dataset (\href{https://snis.ch/project/civilian-victimization-conflict-escalation/}{website}), 2016--2017
+\end{itemize}
+
+%---------------------------------------------------------------
+\section*{Talks}
+
+\subsection*{Conferences}
+
+% \begin{minipage}[t]{0.1\textwidth}
+% \textbf{yyyy}
+% \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+% xxxx
+% \end{minipage}\\
+
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2021}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference, online.
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2019}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference, The Hague, NL.
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2018}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.9\textwidth}
+APSA Annual Meeting, Boston, USA.
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2018}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference, Verona, Italy.
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2017}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.9\textwidth}
+APSA Annual Meeting, San Francisco, USA.
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2017}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.9\textwidth}
+EPSA Annual Conference, Milan, Italy.
+\end{minipage}
+
+
+%---------------------------------------------------------------
+\section*{Awards \& Grants}
+
+% \begin{minipage}[t]{0.1\textwidth}
+% \textbf{yyyy}
+% \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+% xxxx
+% \end{minipage}\\
+
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2021}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Juan Linz Price to the Best Doctoral Dissertation in Political Science,\\\textit{Centro de Estudios Políticos y Constitucionales (Spanish Ministry for the Presidency)}\\\vspace{-8pt}
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2018}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Swiss Academy of Humanities and Social Sciences (SAGW) travel grant
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2014}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Best academic record in undergraduate studies, {\it Universidad de Salamanca}
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2013--14}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Research assistant fellowship, {\it Spanish Ministry of Education}
+\end{minipage}\\
+
+%---------------------------------------------------------------
+\section*{Skills}
+
+Software: R, Stata, Python (beginner), MySQL (beginner), QGIS\\
+Languages: English, Spanish (native), Portuguese (intermediate), German (basic)
+
+%---------------------------------------------------------------
+\section*{Profession}
+
+{\it Referee:}\\Journal of Politics, British Journal of Political Science, Comparative Political Studies, Journal of Conflict Resolution, Journal of Peace Research, Political Geography, Review of International Organizations, Civil Wars, Economics of Transition, Defence and Peace Economics.\\
+\\
+{\it Organizer:}\\IC3JM Internal Seminar (2021--)
+
+%---------------------------------------------------------------
+\section*{References}
+
+\textit{Upon request.}
+
+% \begin{minipage}[t]{0.28\textwidth}
+% Lars-Erik Cederman\\\vspace{-10pt}
+%
+% Professor\\
+% International Conflict\\Research,
+% ETH Zürich\\
+% +41 44 632 67 59\\
+% {\small \url{lcederman@ethz.ch}}
+% \end{minipage}
+% \begin{minipage}[t]{0.35\textwidth}
+% Laia Balcells\\\vspace{-10pt}
+%
+% Provost's Distinguished Assoc Prof\\
+% Dept of Government,\\
+% Georgetown University\\
+% +1 (202) 687 3712\\
+% {\small \url{laia.balcells@georgetown.edu}}
+% \end{minipage}
+% \begin{minipage}[t]{0.33\textwidth}
+% Ignacio Sánchez-Cuenca\\\vspace{-10pt}
+%
+% Professor\\
+% Carlos III-Juan March Institute,\\
+% Universidad Carlos III de Madrid\\
+% +34 91 624 8505\\
+% {\small \url{igsanche@clio.uc3m.es}}\\
+% \end{minipage}
+
+\vspace{20pt}
+\noindent
+\flushright
+{\small Updated \today}
+
+\end{document}
