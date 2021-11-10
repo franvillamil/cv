@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.21)  22 OCT 2021 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.21)  10 NOV 2021 21:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,29 +452,34 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 137--146
 [] [] 
  []
 
+
+Overfull \hbox (4.3741pt too wide) in paragraph at lines 151--152
+[]\T1/ppl/b/n/12 Villamil, Fran-cisco \T1/ppl/m/n/12 (forth-com-ing) Vi-o-lence, co-optation, and post-war vot-ing in Guatemala.
+ []
+
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 279--299
+Underfull \hbox (badness 10000) in paragraph at lines 278--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--308
+Underfull \hbox (badness 10000) in paragraph at lines 302--307
 
  []
 
 
 AED: lastpage setting LastPage
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
  (./villamil-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
 Package rerunfilecheck Info: File `villamil-cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 366.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
  ) 
 Here is how much of TeX's memory you used:
  9663 strings out of 480608
@@ -483,9 +488,9 @@ Here is how much of TeX's memory you used:
  25362 multiletter control sequences out of 15000+600000
  544774 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,96p,292b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,96p,292b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (3 pages, 70935 bytes).
+Output written on villamil-cv.pdf (3 pages, 70969 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
