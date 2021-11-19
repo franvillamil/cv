@@ -41,6 +41,9 @@
 \renewcommand{\@oddfoot}{\@evenfoot}
 \makeatother
 
+\usepackage{datetime}
+\newdateformat{monthdate}{\monthname[\THEMONTH] \THEYEAR}
+
 \begin{document}
 
 % ---------------------------------------------------------
@@ -69,18 +72,24 @@
 %---------------------------------------------------------------
 \section*{Employment}
 
+% \begin{minipage}[t]{0.1\textwidth}
+% \textbf{2022--}
+% \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+% Assistant Professor\\
+% \textit{Department of Social Sciences, Universidad Carlos III de Madrid}\\\vspace{-8pt}
+% \end{minipage}\\
 \begin{minipage}[t]{0.1\textwidth}
-  \flushleft
-  \setstretch{0.8}
-	\textbf{2020--}\\\vspace{21pt}
-  \textbf{2020--}
-\end{minipage}
-\begin{minipage}[t]{0.9\textwidth}
-	Junior Research Fellow\\
-  \textit{Carlos III-Juan March Institute, Universidad Carlos III de Madrid}\\
-  Visiting Professor\\
-  \textit{Department of Social Sciences, Universidad Carlos III de Madrid}
-\end{minipage}
+\textbf{2020--}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Junior Research Fellow\\
+\textit{Carlos III-Juan March Institute, Universidad Carlos III de Madrid}\\\vspace{-8pt}
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2020--}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Visiting Professor\\
+\textit{Department of Social Sciences, Universidad Carlos III de Madrid}
+\end{minipage}\\
 
 %---------------------------------------------------------------
 \section*{Research Positions}
@@ -302,7 +311,12 @@ Undergraduate research assistant fellowship, {\it Spanish Ministry of Education}
 \begin{minipage}[t]{0.1\textwidth}
 \textbf{2021}
 \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
-UNU-WIDER: ``Institutional legacies of violent conflict,'' 10,000 \$ (PI: Laia Balcells)
+Spanish Ministry of Presidency, ``Determinants of violence during the Spanish Civil War and its long-term consequences,'' 10,000 € (PI: Paloma Aguilar)\\\vspace{-8pt}
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2021}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+UNU-WIDER, ``Institutional legacies of violent conflict,'' 10,000 \$ (PI: Laia Balcells)
 \end{minipage}\\
 
 
@@ -323,10 +337,10 @@ Journal of Politics, British Journal of Political Science, Comparative Political
 
 IC3JM Internal Seminar (2021--)
 
-%---------------------------------------------------------------
-\section*{References}
-
-\textit{Upon request.}
+% %---------------------------------------------------------------
+% \section*{References}
+%
+% \textit{Upon request.}
 
 % \begin{minipage}[t]{0.28\textwidth}
 % Lars-Erik Cederman\\\vspace{-10pt}
@@ -360,6 +374,6 @@ IC3JM Internal Seminar (2021--)
 
 \noindent
 \flushright
-{\small\it Updated \today}
+{\small\it Updated \monthdate\today}
 
 \end{document}
