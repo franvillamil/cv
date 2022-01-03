@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.21)  19 NOV 2021 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.21)  3 JAN 2022 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,35 +474,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--70
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--93
+Underfull \hbox (badness 10000) in paragraph at lines 75--93
 
  []
 
-
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 98--114
-[] [] 
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 128.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 107.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 118--131
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 97--110
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 134--143
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 113--122
 [] [] 
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 146--155
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 125--134
+[] [] 
+ []
+
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 139--155
 [] [] 
  []
 
@@ -542,9 +542,9 @@ Here is how much of TeX's memory you used:
  26344 multiletter control sequences out of 15000+600000
  544774 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,96p,1050b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,96p,1050b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (3 pages, 73118 bytes).
+Output written on villamil-cv.pdf (3 pages, 72933 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
