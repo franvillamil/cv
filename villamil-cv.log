@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.21)  7 FEB 2022 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.21)  22 FEB 2022 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -506,11 +506,6 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 143--159
 [] [] 
  []
 
-
-Overfull \hbox (4.3741pt too wide) in paragraph at lines 164--165
-[]\T1/ppl/b/n/12 Villamil, Fran-cisco \T1/ppl/m/n/12 (forth-com-ing) Vi-o-lence, co-optation, and post-war vot-ing in Guatemala.
- []
-
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
@@ -542,12 +537,12 @@ Here is how much of TeX's memory you used:
  26346 multiletter control sequences out of 15000+600000
  547154 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,96p,1050b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,96p,1050b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (3 pages, 73179 bytes).
+Output written on villamil-cv.pdf (3 pages, 73105 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
