@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  13 MAR 2024 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  14 MAR 2024 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,24 +649,24 @@ lead-ers: An-ti-cler-i-cal vi-o-lence dur-ing the Span-
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 308--328
-
- []
-
-[3]
 LaTeX Font Info:    Trying to load font information for TS1+Crimson-TLF on inpu
-t line 335.
+t line 278.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/crimson/TS1Crimson-TLF.fd
 File: TS1Crimson-TLF.fd 2016/02/19 (autoinst) Font definitions for TS1/Crimson-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
-(Font)              scaled to size 13.07996pt on input line 335.
+(Font)              scaled to size 13.07996pt on input line 278.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--319
+
+ []
+
+[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}]
 LaTeX Font Info:    Font shape `T1/Crimson-TLF/m/it' will be
 (Font)              scaled to size 11.93546pt on input line 409.
 
-[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}]
-
+[4] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./villamil-cv.aux)
 Package rerunfilecheck Info: File `villamil-cv.out' has not changed.
@@ -685,7 +685,7 @@ b></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (4 pages, 214008 bytes).
+Output written on villamil-cv.pdf (4 pages, 214021 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
