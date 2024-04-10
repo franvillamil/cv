@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1710437683 "villamil-cv.tex" "villamil-cv.pdf" "villamil-cv" 1710437683 0
+["pdflatex"] 1712739191 "villamil-cv.tex" "villamil-cv.pdf" "villamil-cv" 1712739191 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc" 1455925044 3299 84ef183be340c87858117b006844320d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_fllea6.enc" 1455925044 2975 f04dd8fb819a1b98cc22b1e3e6cc7a72 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_izufyi.enc" 1455925044 2971 71a696eec0d35507bb9f8e0af7d5c397 ""
@@ -141,9 +141,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705144455 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705144389 7883460 1550c7dc5e1a65f25c597afed28e1262 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "villamil-cv.aux" 1710437683 772 35f95977d6bc739c7d384257c7a080a8 "pdflatex"
-  "villamil-cv.out" 1710437683 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "villamil-cv.tex" 1710437682 17475 2eac549102371f38e03bda3926a9f37e ""
+  "villamil-cv.aux" 1712739191 772 35f95977d6bc739c7d384257c7a080a8 "pdflatex"
+  "villamil-cv.out" 1712739191 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "villamil-cv.tex" 1712739190 17475 6023c8cb45fd9ca188a466680bc9e1f7 ""
   (generated)
   "villamil-cv.aux"
   "villamil-cv.log"
