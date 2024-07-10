@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  9 JUL 2024 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  10 JUL 2024 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,33 +643,33 @@ Overfull \hbox (1.84819pt too wide) in paragraph at lines 151--159
 al/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_fllea6.enc}{/usr/local/t
 exlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_izufyi.enc}{/usr/local/texli
 ve/2023/texmf-dist/fonts/enc/dvips/crimson/crm_tyw3ea.enc}]
-Overfull \hbox (2.0366pt too wide) in paragraph at lines 214--215
+Overfull \hbox (2.0366pt too wide) in paragraph at lines 214--216
 []\T1/Crimson-TLF/m/n/12 The con-se-quences of grass-roots hu-man rights (with 
 Paloma Aguilar and Fer-nando de la Cuesta). 
  []
 
 [2]
 LaTeX Font Info:    Trying to load font information for TS1+Crimson-TLF on inpu
-t line 279.
+t line 280.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/crimson/TS1Crimson-TLF.fd
 File: TS1Crimson-TLF.fd 2016/02/19 (autoinst) Font definitions for TS1/Crimson-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
-(Font)              scaled to size 13.07996pt on input line 279.
+(Font)              scaled to size 13.07996pt on input line 280.
 
 [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 300--320
+Underfull \hbox (badness 10000) in paragraph at lines 301--321
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 332.
+(Font)              <12> on input line 333.
 [4
 
 ]
 LaTeX Font Info:    Font shape `T1/Crimson-TLF/m/it' will be
-(Font)              scaled to size 11.93546pt on input line 429.
+(Font)              scaled to size 11.93546pt on input line 430.
  [5] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./villamil-cv.aux)
