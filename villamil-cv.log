@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  11 NOV 2024 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  19 NOV 2024 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,19 +649,20 @@ Paloma Aguilar and Fer-nando de la Cuesta).
  []
 
 [2]
+LaTeX Font Info:    Trying to load font information for TS1+Crimson-TLF on inpu
+t line 271.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/crimson/TS1Crimson-TLF.fd
+File: TS1Crimson-TLF.fd 2016/02/19 (autoinst) Font definitions for TS1/Crimson-
+TLF.
+)
+LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
+(Font)              scaled to size 13.07996pt on input line 271.
+
 Overfull \hbox (8.7476pt too wide) in paragraph at lines 271--272
 []\T1/Crimson-TLF/m/n/12 Ramón y Ca-jal Fel-low-ship. Span-ish Min-istry of Sci
 -ence, In-no-va-tion, and Uni-ver-si-ties (RYC2023-
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+Crimson-TLF on inpu
-t line 272.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/crimson/TS1Crimson-TLF.fd
-File: TS1Crimson-TLF.fd 2016/02/19 (autoinst) Font definitions for TS1/Crimson-
-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
-(Font)              scaled to size 13.07996pt on input line 272.
 
 Underfull \hbox (badness 10000) in paragraph at lines 295--315
 
@@ -696,7 +697,7 @@ xlive/2021/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 210577 bytes).
+Output written on villamil-cv.pdf (5 pages, 210593 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
