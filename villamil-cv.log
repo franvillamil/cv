@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  21 NOV 2024 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  5 DEC 2024 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,70 +610,70 @@ LaTeX Font Info:    Font shape `T1/Crimson-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/Crimson-TLF/m/it' will be
 (Font)              scaled to size 13.07996pt on input line 88.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--108
+Underfull \hbox (badness 10000) in paragraph at lines 84--102
 
  []
 
 
-Overfull \hbox (1.84819pt too wide) in paragraph at lines 114--126
+Overfull \hbox (1.84819pt too wide) in paragraph at lines 108--120
 [] [] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 140.
+(Font)              <10.95> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 134.
 
-Overfull \hbox (1.84819pt too wide) in paragraph at lines 131--143
+Overfull \hbox (1.84819pt too wide) in paragraph at lines 125--137
 [] [] 
  []
 
 
-Overfull \hbox (1.84819pt too wide) in paragraph at lines 146--154
+Overfull \hbox (1.84819pt too wide) in paragraph at lines 140--148
 [] [] 
  []
 
 
-Overfull \hbox (1.84819pt too wide) in paragraph at lines 157--165
+Overfull \hbox (1.84819pt too wide) in paragraph at lines 151--159
 [] [] 
  []
 
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.0366pt too wide) in paragraph at lines 205--207
+Overfull \hbox (2.0366pt too wide) in paragraph at lines 199--201
 []\T1/Crimson-TLF/m/n/12 The con-se-quences of grass-roots hu-man rights (with 
 Paloma Aguilar and Fer-nando de la Cuesta). 
  []
 
 [2]
 LaTeX Font Info:    Trying to load font information for TS1+Crimson-TLF on inpu
-t line 271.
+t line 265.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/crimson/TS1Crimson-TLF.fd
 File: TS1Crimson-TLF.fd 2016/02/19 (autoinst) Font definitions for TS1/Crimson-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
-(Font)              scaled to size 13.07996pt on input line 271.
+(Font)              scaled to size 13.07996pt on input line 265.
 
-Overfull \hbox (8.7476pt too wide) in paragraph at lines 271--272
+Overfull \hbox (8.7476pt too wide) in paragraph at lines 265--266
 []\T1/Crimson-TLF/m/n/12 Ramón y Ca-jal Fel-low-ship. Span-ish Min-istry of Sci
 -ence, In-no-va-tion, and Uni-ver-si-ties (RYC2023-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--315
+Underfull \hbox (badness 10000) in paragraph at lines 289--309
 
  []
 
 [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 327.
+(Font)              <12> on input line 321.
  [4]
 LaTeX Font Info:    Font shape `T1/Crimson-TLF/m/it' will be
-(Font)              scaled to size 11.93546pt on input line 424.
+(Font)              scaled to size 11.93546pt on input line 418.
  
 AED: lastpage setting LastPage
 [5] (./villamil-cv.aux)
@@ -697,7 +697,7 @@ xlive/2021/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 210640 bytes).
+Output written on villamil-cv.pdf (5 pages, 210928 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
