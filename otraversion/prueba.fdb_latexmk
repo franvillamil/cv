@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1731332816 "prueba.tex" "prueba.pdf" "prueba" 1731332816
+["pdflatex"] 1731332816 "prueba.tex" "prueba.pdf" "prueba" 1743599348
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/crimson/crm_fllea6.enc" 1455925044 2975 f04dd8fb819a1b98cc22b1e3e6cc7a72 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/crimson/crm_izufyi.enc" 1455925044 2971 71a696eec0d35507bb9f8e0af7d5c397 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -49,8 +49,8 @@
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "cvstyle.sty" 1731332227 2207 574ba578fe526b73d313e548ea60af6a ""
   "prueba.aux" 1731332816 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "prueba.tex" 1731332815 929 16ea79ae1e65370a63be2af0246c8c10 ""
+  "prueba.tex" 1731332820 929 16ea79ae1e65370a63be2af0246c8c10 ""
   (generated)
   "prueba.pdf"
-  "prueba.aux"
   "prueba.log"
+  "prueba.aux"
