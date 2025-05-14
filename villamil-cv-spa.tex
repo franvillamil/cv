@@ -1,0 +1,505 @@
+% Tamaño de papel y fuente
+\documentclass[a4paper, 12pt]{article}
+
+% Márgenes
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+% Idioma
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+% Fonts
+\usepackage[T1]{fontenc}
+% \usepackage[semibold]{ebgaramond}
+% \renewcommand*\rmdefault{ppl}
+\usepackage[scaled=1.09]{crimson}
+
+% Interlineado
+\usepackage{setspace}
+\setstretch{1.15}
+
+\usepackage{color}
+
+\usepackage{array, xcolor, lipsum, bibentry, enumitem, etaremune}
+\usepackage{color}
+	\definecolor{dark_blue}{rgb}{0.2, 0.0, .7}
+	\definecolor{some_blue}{HTML}{3b4a78}
+\usepackage[colorlinks = TRUE, allcolors = some_blue]{hyperref}
+
+% Tablas y gráficos
+\usepackage[]{caption}
+\usepackage{booktabs, graphicx}
+\usepackage{pifont}
+% \usepackage{fontawesome}
+
+\usepackage[]{titlesec}
+\titleformat*{\section}{\large\bfseries\flushleft}
+\titleformat*{\subsection}{\normalsize\bf\flushleft}
+
+\usepackage{lastpage}
+
+\makeatletter
+\renewcommand{\@evenfoot}%
+{\small \hfil {\thepage}/\pageref{LastPage} \hfil}
+\renewcommand{\@oddfoot}{\@evenfoot}
+\makeatother
+
+\usepackage{datetime}
+\newdateformat{monthdate}{\monthname[\THEMONTH] \THEYEAR}
+
+\renewcommand\labelitemi{\textbf{--}}
+
+\begin{document}
+
+% ---------------------------------------------------------
+% BASIC HEADER + CONTACT INFO
+% ---------------------------------------------------------
+
+\begin{center}
+{\bfseries\Large Francisco Villamil}
+\end{center}
+
+\vspace{0pt}
+
+\noindent
+\begin{minipage}[t]{0.47\textwidth}\small
+\flushright
+	Despacho 18.2.A34\\
+	Universidad Carlos III de Madrid\\
+	C/ Madrid, 135 -- 28903 Getafe\\
+\end{minipage}\hfill
+\begin{minipage}[t]{0.47\textwidth}\small
+	% \vfill
+	\ding{37} \hspace{5pt} (+34) 644 819 972\\
+	\ding{41} \hspace{5pt} \href{mailto:francisco.villamil@uc3m.es}{francisco.villamil@uc3m.es}\\
+	\ding{43} \hspace{5pt} \href{https://franvillamil.github.io}{https://franvillamil.github.io}\\
+	% \ding{43} \hspace{5pt} \href{https://orcid.org/0000-0003-0523-5426}{orcid.org/0000-0003-0523-5426}
+\end{minipage}
+
+
+%---------------------------------------------------------------
+% \vspace{-10pt}
+\section*{Situación profesional}
+
+\noindent
+\begin{minipage}[t]{0.12\textwidth}
+\textbf{2025--}
+\end{minipage}\hfill\begin{minipage}[t]{0.88\textwidth}
+Investigador Ramón y Cajal\\
+\textit{Departmento de Ciencias Sociales, Universidad Carlos III de Madrid}\\\vspace{-8pt}
+\end{minipage}\\
+\begin{minipage}[t]{0.12\textwidth}
+\textbf{2020--24}
+\end{minipage}\hfill\begin{minipage}[t]{0.88\textwidth}
+Profesor Visitante\\
+\textit{Departmento de Ciencias Sociales, Universidad Carlos III de Madrid}\\\vspace{-8pt}
+\end{minipage}\\
+
+%---------------------------------------------------------------
+\vspace{-10pt}
+\subsection*{Cargos estatutarios en la universidad}
+
+\noindent
+\begin{minipage}[t]{0.12\textwidth}
+\textbf{2022--}
+\end{minipage}\hfill\begin{minipage}[t]{0.88\textwidth}
+Coordinador de TFG en Ciencia Política y Estudios Internacionales\\
+\textit{Universidad Carlos III de Madrid}\\\vspace{-8pt}
+\end{minipage}\\
+
+%---------------------------------------------------------------
+\vspace{-10pt}
+\subsection*{Otras afiliciaciones académicas}
+
+\noindent
+\begin{minipage}[t]{0.82\textwidth}
+  Visiting Scholar, \textit{Instituto de Ciências Sociais}, Lisboa\vspace{2pt}\\
+  Visiting Scholar, \textit{Carlos III-Juan March Institute}, Madrid\vspace{2pt}\\
+	Visiting Researcher, \textit{Georgetown University}, Washington DC
+\end{minipage}
+\begin{minipage}[t]{0.18\textwidth}
+  \flushright
+  \setstretch{0.8}
+	\textbf{2023}\\\vspace{7pt}
+  \textbf{2019}\\\vspace{7pt}
+	\textbf{2018--2019}
+\end{minipage}
+
+%---------------------------------------------------------------
+\vspace{-0pt}
+\section*{Formación académica}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+	\textbf{2020}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  PhD Political Science, \textit{ETH Zurich}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=18pt]\small
+		\renewcommand\labelitemi{{\boldmath$\cdot$}}
+	  \item Premio Juan Linz a la mejor tesis doctoral en Ciencia Política (Centro de Estudios Políticos y Constitucionales)
+	\end{itemize}
+\end{minipage}
+
+\vspace{10pt}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+	\textbf{2016}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  MA Comparative and International Studies, \textit{ETH Zurich \& University of Zurich}
+\end{minipage}
+
+% \vspace{-10pt}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+  \flushleft
+	\textbf{2014}
+\end{minipage}
+\begin{minipage}[t]{0.9\textwidth}
+  Grado en Sociología, \textit{Universidad de Salamanca}
+  \vspace{-5pt}
+	\begin{itemize}[leftmargin=18pt]\small
+		\renewcommand\labelitemi{{\boldmath$\cdot$}}
+	  \item Premio Extraordinario de Grado.
+	\end{itemize}
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Publicaciones}
+
+\subsection*{Artículos peer-reviewed}
+
+\begin{etaremune}[leftmargin=12pt, itemsep=0pt]
+\item Aguilar, Paloma, Fernando de la Cuesta, Ignacio Sánchez-Cuenca, and \textbf{Francisco Villamil} (2025) \href{https://doi.org/10.1177/00104140241269894}{Mobilization capacity and violence against local leaders: Anticlerical violence during the Spanish Civil War}. \textit{Comparative Political Studies} 58(7): 1319--1351.
+\item \textbf{Villamil, Francisco}, Stuart Turnbull-Dugarte, and José Rama (2024) \href{https://doi.org/10.1086/727598}{Rally 'round the barrack: Far-right support and the military.} \textit{The Journal of Politics} 86(4): 1524--1540.
+\item Balcells, Laia, Juan F Tellez, and \textbf{Francisco Villamil} (2024) \href{https://doi.org/10.1086/726939}{The wars of others: The effect of the Russian invasion of Ukraine on Spanish nationalism.} \textit{The Journal of Politics} 86(1): 352--357.
+\item \textbf{Villamil, Francisco} (2023) \href{https://doi.org/10.1017/S1755773923000097}{Civilian victimization and ethnic attitudes in Africa.}\\\textit{European Political Science Review} 15(4): 617--627.
+\item \textbf{Villamil, Francisco} (2022) \href{https://journals.sagepub.com/doi/full/10.1177/07388942211066539}{Violence, co-optation, and postwar voting in Guatemala.}\\\textit{Conflict Management and Peace Science} 39(6): 731--754.
+\item \textbf{Villamil, Francisco} and Laia Balcells (2021) \href{https://journals.sagepub.com/doi/full/10.1177/20531680211058550}{Do TJ policies cause backlash? Evidence from street name changes in Spain.} \textit{Research \& Politics} 8(4).
+\item \textbf{Villamil, Francisco} (2021) \href{https://doi.org/10.1177/0022343320912816}{Mobilizing memories: The social conditions of the long-term impact of victimization.} \textit{Journal of Peace Research} 58(3): 399--416.
+\item Balcells, Laia and \textbf{Francisco Villamil} (2020) \href{https://doi.org/10.1080/13537113.2020.1795451}{The double logic of internal purges: Evidence from Francoist Spain.} \textit{Nationalism and Ethnic Politics} 26(3): 260--278.
+\item Cederman, Lars-Erik, Simon Hug, Livia Schubiger, and \textbf{Francisco Villamil} (2020) \href{https://doi.org/10.1177/0022002719898873}{Civilian victimization and ethnic civil war.} \textit{Journal of Conflict Resolution} 64(7--8): 1199--1225.
+\end{etaremune}
+
+\subsection*{Capítulos de libros}
+
+\begin{etaremune}[leftmargin=12pt, itemsep=0pt]
+\item \textbf{Villamil, Francisco} and Paloma Aguilar (2026) \href{https://doi.org/10.1007/978-3-030-93789-8_49-1}{Violence and memory}. In: \textit{The Palgrave Encyclopedia of Memory Studies}, edited by Lucas M. Bietti and Martin Pogacar. New York: Palgrave Macmillan. % eBook ISBN: 978-3-030-93789-8
+\item \textbf{Villamil, Francisco} (2023) \href{https://doi.org/10.4337/9781803921235.00020}{Civil Wars}. In: \textit{Encyclopedia of Political Sociology}, edited by Maria T. Grasso and Marco Giugni. Cheltenham: Edward Elgar, 56--58. % ISBN: 978-1-80392-122-8
+\item Rama, José, Stuart J. Turnbull-Dugarte and \textbf{Francisco Villamil} (2022) \href{https://www.comares.com/libro/en-los-margenes-de-la-democracia-liberal_143816/}{Descomponiendo a la derecha radical europea: el perfil de sus votantes.} In: \textit{En los márgenes de la democracia liberal: Populismo, nacionalismo y radicalismo ideológico en Europa}, edited by Ángel Valencia and Belén Fernández-García. Granada: Comares, 239--258. % ISBN: 978-84-1369-480-1
+\end{etaremune}
+
+%---------------------------------------------------------------
+\section*{Working papers e investigación en progreso}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+\item ``Memories at War: How the Legacies of Violence Persist or Disappear.''
+\item[] Manuscrito de libro en preparación, \textit{book workshop} a celebrar en octubre 2025.
+\item ``The legacies of authoritarian repression on civil society.'' Co-autorado junto a Laia Balcells.
+\item[] Publicado como \\\href{https://doi.org/10.35188/UNU-WIDER/2023/309-3}{WIDER Working Paper 1/2023,} Naciones Unidas.
+\item[] Versión actual en estado de \textit{Revise \& Resubmit}, en \textit{European Journal of Political Science.}
+\item ``Media, Public Opinion, and Polarization over Historical Memory.'' Co-autorado junto a Laia Balcells y Juan F. Téllez.
+\item[] Versión actual en proceso de revisión en \textit{British Journal of Political Science.}
+\item ``The consequences of grassroots human rights: Mass grave exhumations in Spain.'' Co-autorado con Paloma Aguilar, Fernando de la Cuesta y Abdelkarim Laglil.
+\item[] Versiones anteriores presentadas en congresos durante 2024, versión actual a presentar en congresos en junio 2025.
+\item ``Sports, nationalism, and attitudes on political violence.'' Co-autorado junto a Nikitas Konstantinidis, Andrew Bertoli, Emmy Lindstam, Laura Jakli, Zuheir Desai y Varun KR.
+\item[] Versión a presentar en congreso internacional en junio 2025.
+\item ``Measurement validity in historical conflict data: Comparing datasets from Spain.''
+\item[] Publicado como \textit{preprint} en \href{https://osf.io/c6wgk/}{OSF}.
+\end{itemize}
+
+%---------------------------------------------------------------
+\section*{Financiación competitiva}
+
+\subsection*{Proyectos como Investigador Principal (IP)}
+\vspace{10pt}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``Las consecuencias de la Justicia Transicional: evidencia experimental''\\
+Ayudas para Jóvenes Doctores/as, Programa Propio de Investigación, Universidad Carlos III de Madrid\\
+10,000 €, 2024--2025.\\\vspace{-8pt} %2024--2025.
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``Dinámicas y consecuencias de la Justicia Transicional a nivel local: Las exhumaciones de fosas comunes en España.''\\
+Subvenciones de memoria democrática, Ministerio de Política Territorial y Memoria Democrática\\
+9,960 €, 2024--2025 (247-MD-2024).\\\vspace{-8pt} %2024--2025.
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2023}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``Dinámicas y consecuencias de la Justicia Transicional a nivel local: Las exhumaciones de fosas comunes en España.''\\
+Subvenciones de memoria democrática, Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática\\
+9,960 €, 2024--2025 (205-MD-2023).\\\vspace{-8pt} %2024--2025.
+\end{minipage}
+
+\subsection*{Como miembro del equipo de investigación}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``¿Cómo influye la identidad nacionalista en las actitudes políticas hacia la redistribución y la violencia política? Evidencia de eventos deportivos.'' (IP: N. Konstantinidis)\\
+Proyectos de Generación de Conocimiento, Ministerio de Ciencia e Innovación.\\
+150.000 €, 2023--2026 (PID2022-139998NB-I00).\\\vspace{-8pt}
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``Determinantes de la violencia durante la guerra civil española y sus consecuencias a largo plazo.'' (IP: Paloma Aguilar)\\
+Subvenciones de memoria democrática, Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática\\
+10.000 €, 2022--2023 (102-MD-2022).\\\vspace{-8pt}
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2023}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``Determinantes de la violencia durante la guerra civil española y sus consecuencias a largo plazo.'' (IP: Paloma Aguilar)\\
+Subvenciones de memoria democrática, Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática\\
+10.000 €, 2021--2022 (191-MD-2021).\\\vspace{-8pt}
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2021}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+``Institucional legacies of violent conflict.'' (IP: Laia Balcells, Paloma Justino)\\
+UNU-WIDER, Naciones Unidas.\\
+10.000 €, 2021.\\\vspace{-8pt}
+\end{minipage}
+
+\subsection*{Otras ayudas y contratos competitivos}
+\vspace{10pt}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Ayuda Ramón y Cajal, Ministerio de Ciencia, Innovación y Universidades\\
+251.800 €, 2025--2029 (RYC2023-045315-I).\\\vspace{-8pt}
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Ayudas para la movilidad de jóvenes doctores/as, Universidad Carlos III de Madrid\\
+4.500 €, 2023.\\\vspace{-8pt} %2024--2025.
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Ayuda para viaje, Schweizerische Akademie der Geistes- und Sozialwissenschaften\\
+1.500 €, 2018.
+\\\vspace{-8pt}
+\end{minipage}
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Beca de colaboración en Departamentos universitarios, Universidad de Salamanca\\
+2.000 €, 2013--2014.
+\\\vspace{-8pt}
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Docencia \& supervisión}
+
+% \begin{minipage}[t]{0.1\textwidth}
+% \textbf{yyyy}
+% \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+% xxxx
+% \end{minipage}\vspace{-5pt}\\
+
+\subsection*{Posgrado}
+
+\noindent
+International Relations (inglés)\hfill\textbf{2022--}\\
+{\small Máster en Ciencias Sociales, Universidad Carlos III de Madrid.
+\vspace{10pt}
+
+\noindent
+Research Design (inglés)\hfill\textbf{2022--}\\
+{\small Máster en Ciencias Sociales Computacionales, Universidad Carlos III de Madrid}
+
+% \vspace{-10pt}
+\subsection*{Grado}
+
+\noindent
+Guerra, paz, y violencia política (inglés)\hfill\textbf{2020--}\\
+{\small Grado en Historia y Política, Universidad Carlos III de Madrid}
+\vspace{10pt}
+
+\noindent
+Multidisciplinary seminar on International Studies (inglés)\hfill\textbf{2020--2021}\\
+{\small Grado en Estudios Internacionales y dobles grados, Universidad Carlos III de Madrid}
+\vspace{10pt}
+
+\noindent
+Security, peace, and conflict resolution (inglés)\hfill\textbf{Fall 2020}\\
+{\small Grado en Estudios Internacionales y dobles grados, Universidad Carlos III de Madrid}
+
+%---------------------------------------------------------------
+\subsection*{Supervisión de doctorado}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+	\item Nadal Perales (Universidad Carlos III de Madrid, tutor de tesis desde 2022).
+\end{itemize}
+
+\subsection*{Supervisión de TFM}
+
+\noindent
+2025 (en progreso): Sara Pascual, Laura Toro, Julia Martyniewicz, María Carda\\
+2024: Mecki Hamed, Nadia Napolano, Jieun Park\\
+2023: Alejandro Aisa, Kaan Bakmaz, Carolina Cornejo, Artem Urlapov\\
+2022: Mario Pirez\\
+2021: Javier Terraza
+
+%---------------------------------------------------------------
+% \clearpage
+\section*{Premios}
+
+% \begin{minipage}[t]{0.1\textwidth}
+% \textbf{yyyy}
+% \end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+% xxxx
+% \end{minipage}\\
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2021}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Premio Juan Linz a la mejor tesis doctoral en Ciencia Política,\\\textit{Centro de Estudios Políticos y Constitucionales}\\\vspace{-8pt}
+\end{minipage}
+
+
+%---------------------------------------------------------------
+\section*{Ponencias en conferencias internacionales}
+
+\noindent
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2025}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+European Political Science Association Annual Conference\\
+Universidad Carlos III de Madrid, Madrid\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2025}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+Universitat de Barcelona, Barcelona\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2025}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+ESOC Research and Policy Conference\\
+National Taiwan University (NTU), Taipei (Taiwán)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Congreso Internacional de Geopolítica y Estudios de Área\\
+Universidad del País Vasco, Bilbao\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2024}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+Dublin City University, Dublin (Irlanda)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2023}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+Università di Bologna, Bolonia (Italia)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2022}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+American Political Science Association Annual Meeting\\
+Montreal (Canadá)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2022}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+ISCTE-IUL, Lisboa (Portugal)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2022}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+King's College London, Londres (Reino Unido)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2022}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Institutional legacies of violent conflict workshop\\
+UNU-WIDER, Helsinki (Finlandia)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2021}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+(Online)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2019}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+International Institute of Social Sciences, La Haya (Países Bajos)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2018}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+American Political Science Association Annual Meeting\\
+Boston (Estados Unidos)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2018}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+Jan Tinbergen European Peace Science Conference\\
+Università di Verona, Verona (Italia)\\
+\end{minipage}\\
+\begin{minipage}[t]{0.1\textwidth}
+\textbf{2017}
+\end{minipage}\hfill\begin{minipage}[t]{0.9\textwidth}
+American Political Science Association Annual Meeting\\
+San Francisco (Estados Unidos)\\
+\end{minipage}
+
+%---------------------------------------------------------------
+\section*{Software y experiencia en creación de bases de datos}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+  \item ``muniSpain'': Paquete de R para el análisis de datos históricos a nivel local en España
+  \item[] \href{https://github.com/franvillamil/muniSpain}{https://github.com/franvillamil/muniSpain}
+	\item Coordinador, ACD2EPR Version 2018
+	\item[] \href{https://icr.ethz.ch/data/epr/acd2epr/}{https://icr.ethz.ch/data/epr/acd2epr/}
+	\item Coordinador, EOSV dataset
+	\item[] \href{https://snis.ch/project/civilian-victimization-conflict-escalation/}{https://snis.ch/project/civilian-victimization-conflict-escalation/}
+\end{itemize}
+
+%---------------------------------------------------------------
+% \vspace{-10pt}
+\section*{Gestión universitaria y servicio a la profesión}
+
+\subsection*{Universidad Carlos III de Madrid}
+
+\begin{itemize}[leftmargin=*, nolistsep]
+  \item Comisión académica, Grado en Derecho y Estudios Internacionales (2025--).
+	\item Comisión académica, Grado en Historia y Política (2024--).
+	\item Comisión académica, Máster en Ciencias Sociales Computacionales (2022--).
+\end{itemize}
+
+\subsection*{Revisor en revistas académicas}
+
+\noindent
+American Political Science Review, The Journal of Politics, Nature Human Behaviour, British Journal of Political Science, Comparative Political Studies, World Politics, Journal of Conflict Resolution, Journal of Peace Research, European Political Science Review, Political Behavior, Political Geography, Review of International Organizations, Civil Wars, Economics of Transition, Defence and Peace Economics, International Journal of Human Rights, Journal of Human Rights, Memory Studies, Social Movement Studies, Nationalities Papers.
+
+
+\end{document}
