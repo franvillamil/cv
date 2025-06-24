@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  14 MAY 2025 13:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  24 JUN 2025 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,15 +655,15 @@ LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
 
 [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}]
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 299--324
+Underfull \hbox (badness 10000) in paragraph at lines 299--329
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 336.
+(Font)              <12> on input line 341.
 [4]
 LaTeX Font Info:    Font shape `T1/Crimson-TLF/m/it' will be
-(Font)              scaled to size 11.93546pt on input line 432.
+(Font)              scaled to size 11.93546pt on input line 437.
  [5] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./villamil-cv.aux)
@@ -683,7 +683,7 @@ b></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 217016 bytes).
+Output written on villamil-cv.pdf (5 pages, 216705 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
