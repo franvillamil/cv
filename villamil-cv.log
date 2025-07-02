@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  27 JUN 2025 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  2 JUL 2025 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -612,12 +612,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--102
  []
 
 
-Overfull \hbox (1.84819pt too wide) in paragraph at lines 108--120
+Overfull \hbox (1.84819pt too wide) in paragraph at lines 108--122
 [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/Crimson-TLF/m/it' will be
-(Font)              scaled to size 11.93546pt on input line 128.
+(Font)              scaled to size 11.93546pt on input line 130.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -625,46 +625,42 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_fllea6.enc}{/usr/local/t
 exlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_izufyi.enc}{/usr/local/texli
 ve/2023/texmf-dist/fonts/enc/dvips/crimson/crm_tyw3ea.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+Crimson-TLF on inpu
-t line 226.
+t line 213.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/crimson/TS1Crimson-TLF.fd
 File: TS1Crimson-TLF.fd 2016/02/19 (autoinst) Font definitions for TS1/Crimson-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
-(Font)              scaled to size 13.07996pt on input line 226.
+(Font)              scaled to size 13.07996pt on input line 213.
 
 [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}]
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 319--349
-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 361.
+(Font)              <12> on input line 369.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 361.
+(Font)              <8> on input line 369.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 361.
-[4] [5] 
+(Font)              <6> on input line 369.
+ [4] [5] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./villamil-cv.aux)
 Package rerunfilecheck Info: File `villamil-cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14834 strings out of 476025
- 251150 string characters out of 5790017
- 1865388 words of memory out of 5000000
- 35014 multiletter control sequences out of 15000+600000
+ 14835 strings out of 476025
+ 251171 string characters out of 5790017
+ 1866388 words of memory out of 5000000
+ 35015 multiletter control sequences out of 15000+600000
  631287 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,117p,1050b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,117p,1050b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Bold.pf
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 209482 bytes).
+Output written on villamil-cv.pdf (5 pages, 209918 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
