@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  13 FEB 2026 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  3 MAR 2026 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,11 +564,11 @@ LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
 [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}] 
 [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 345.
+(Font)              <12> on input line 343.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 345.
+(Font)              <8> on input line 343.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 345.
+(Font)              <6> on input line 343.
 [4] [5] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./villamil-cv.aux)
@@ -587,10 +587,10 @@ Here is how much of TeX's memory you used:
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 210661 bytes).
+Output written on villamil-cv.pdf (5 pages, 210520 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
