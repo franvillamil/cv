@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  18 MAY 2026 08:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  24 JUN 2026 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -587,10 +587,10 @@ Here is how much of TeX's memory you used:
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 212172 bytes).
+Output written on villamil-cv.pdf (5 pages, 212069 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
