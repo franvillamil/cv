@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  27 JUL 2026 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.13)  4 AUG 2026 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,12 +561,6 @@ TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Crimson-TLF/m/n' will be
 (Font)              scaled to size 13.07996pt on input line 193.
-
-Underfull \hbox (badness 5475) in paragraph at lines 193--194
-\T1/Crimson-TLF/m/n/12 edge Gen-er-a-tion grant, Span-ish Re-search Agency (PID
-2025-171590NA-I00),
- []
-
 [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/crimson/crm_axwm4k.enc}] 
 [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -593,7 +587,7 @@ Here is how much of TeX's memory you used:
 b></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Italic.
 pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/kosch/crimson/Crimson-Roman
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on villamil-cv.pdf (5 pages, 212323 bytes).
+Output written on villamil-cv.pdf (5 pages, 212460 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
